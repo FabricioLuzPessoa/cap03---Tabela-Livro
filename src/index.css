@@ -1,8 +1,9 @@
+/*BODY*/
 body {
     font: 16px sans-serif;
     margin: 0;
 }
-
+/*TABELA*/
 .tabela {
     border-collapse: collapse;
     border: 1px solid #ccc;
@@ -22,7 +23,7 @@ thead > tr:last-child {             /*Seleciona todos os filhos direto*/
 thead > tr:first-child {            /*Primeiro filho*/
     background: #d1fafd;
 }
-
+/*BODY*/
 tbody>tr:nth-child(2n-1) {
     background: #f1f1f1;
 }
@@ -78,9 +79,9 @@ tfoot>tr {                       /*todos os filhos direto*/
     width: 20px;
     height: 40px;
     margin-left: 10px;
-    vertical-align: middle;
+    vertical-align:middle;
 }
 
 .container-setinhas>div {              /*Filhos direto*/
-    cursor: pointer;
+    cursor:pointer;
 }
